@@ -37,8 +37,10 @@ The script supports several configuration parameters:
 
 ### Advanced Usage
 
-Run the PowerShell script directly with custom parameters (you must run w/ Administrator privileges):
+The batch file supports all the same parameters as the PowerShell script. Here's an example with all parameters:
 
-```powershell
-.\update_xml.ps1 -XmlFilePath "C:\Path\To\application.xml" -DataKey "CustomKey" -AdobeCode "CustomCode"
+```batch
+update_xml.bat -XmlFilePath "C:\Path\To\application.xml" -DataKey "CustomKey" -AdobeCode "CustomCode" -LogFile "C:\Path\To\custom_log.txt"
 ```
+
+You can specify any combination of these parameters. If no parameters are provided, the script will use the default values shown in the table above.
