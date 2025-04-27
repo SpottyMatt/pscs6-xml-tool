@@ -18,7 +18,6 @@ A PowerShell script to update the BridgeTalkVersion value (or other numbers) in 
 3. The script will automatically request administrator privileges if needed
 4. Network adapters will be temporarily disabled during the update
 5. After the XML is updated, press Enter to restore network connectivity
-6. Check the generated log file for details of the operation
 
 ## User Guide
 
