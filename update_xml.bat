@@ -6,7 +6,7 @@ echo Running update script...
 if "%~1"=="" (
     powershell -ExecutionPolicy Bypass -File "%~dp0update_xml.ps1"
 ) else (
-    powershell -ExecutionPolicy Bypass -File "%~dp0update_xml.ps1" -XmlFilePath "%~1"
+    powershell -ExecutionPolicy Bypass -File "%~dp0update_xml.ps1" %*
 )
 
 echo.
