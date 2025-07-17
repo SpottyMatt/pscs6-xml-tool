@@ -12,7 +12,7 @@ A PowerShell script to update the BridgeTalkVersion value (or other numbers) in 
    
    Or specify a custom XML path:
    ```
-   update_xml.bat "C:\Path\To\Adobe\Adobe Photoshop CS6 (64 Bit)\AMT\application.xml"
+   update_xml.bat -XmlFilePath"C:\Path\To\Adobe\Adobe Photoshop CS6 (64 Bit)\AMT\application.xml"
    ```
 
 3. The script will automatically request administrator privileges if needed
